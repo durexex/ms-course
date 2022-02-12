@@ -23,5 +23,7 @@ public class HrUserApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		System.out.println("BCRYPT = " + passwordEncoder.encode("123456"));
 	}
+	
+	
 
 }
